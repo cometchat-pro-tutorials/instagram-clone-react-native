@@ -1,6 +1,8 @@
 PODS:
   - boost-for-react-native (1.63.0)
-  - CometChatCalls (2.1.1)
+  - CometChatCalls (2.2.0):
+    - CometChatWebRTC (= 1.100.0)
+  - CometChatWebRTC (1.100.0)
   - DoubleConversion (1.1.6)
   - FBLazyVector (0.63.3)
   - FBReactNativeSpec (0.63.3):
@@ -20,15 +22,15 @@ PODS:
     - DoubleConversion
     - glog
   - glog (0.3.5)
-  - libwebp (1.2.1):
-    - libwebp/demux (= 1.2.1)
-    - libwebp/mux (= 1.2.1)
-    - libwebp/webp (= 1.2.1)
-  - libwebp/demux (1.2.1):
+  - libwebp (1.2.3):
+    - libwebp/demux (= 1.2.3)
+    - libwebp/mux (= 1.2.3)
+    - libwebp/webp (= 1.2.3)
+  - libwebp/demux (1.2.3):
     - libwebp/webp
-  - libwebp/mux (1.2.1):
+  - libwebp/mux (1.2.3):
     - libwebp/demux
-  - libwebp/webp (1.2.1)
+  - libwebp/webp (1.2.3)
   - RCTRequired (0.63.3)
   - RCTTypeSafety (0.63.3):
     - FBLazyVector (= 0.63.3)
@@ -195,8 +197,8 @@ PODS:
     - React-cxxreact (= 0.63.3)
     - React-jsi (= 0.63.3)
   - React-jsinspector (0.63.3)
-  - react-native-cometchat-rtc (2.1.1):
-    - CometChatCalls (= 2.1.1)
+  - react-native-cometchat-rtc (2.2.0):
+    - CometChatCalls (= 2.2.0)
     - React
   - react-native-document-picker (4.3.0):
     - React-Core
@@ -302,7 +304,7 @@ PODS:
   - SDWebImage (5.11.1):
     - SDWebImage/Core (= 5.11.1)
   - SDWebImage/Core (5.11.1)
-  - SDWebImageWebPCoder (0.8.4):
+  - SDWebImageWebPCoder (0.8.5):
     - libwebp (~> 1.0)
     - SDWebImage/Core (~> 5.10)
   - Yoga (1.14.0)
@@ -358,6 +360,7 @@ SPEC REPOS:
   trunk:
     - boost-for-react-native
     - CometChatCalls
+    - CometChatWebRTC
     - libwebp
     - SDWebImage
     - SDWebImageWebPCoder
@@ -452,13 +455,14 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
-  CometChatCalls: fc68f63e91b117ec5ef5f269dddbeac1ee7bf1a5
+  CometChatCalls: 59ea1af1f263daefa4090de9540e86013fa0962e
+  CometChatWebRTC: 0c1389cf9af791ae1c2842080134f09dd6336794
   DoubleConversion: cde416483dac037923206447da6e1454df403714
   FBLazyVector: 878b59e31113e289e275165efbe4b54fa614d43d
   FBReactNativeSpec: 7da9338acfb98d4ef9e5536805a0704572d33c2f
   Folly: b73c3869541e86821df3c387eb0af5f65addfab4
   glog: 40a13f7840415b9a77023fbcae0f1e6f43192af3
-  libwebp: 98a37e597e40bfdb4c911fc98f2c53d0b12d05fc
+  libwebp: 60305b2e989864154bd9be3d772730f08fc6a59c
   RCTRequired: 48884c74035a0b5b76dbb7a998bd93bcfc5f2047
   RCTTypeSafety: edf4b618033c2f1c5b7bc3d90d8e085ed95ba2ab
   React: f36e90f3ceb976546e97df3403e37d226f79d0e3
@@ -469,7 +473,7 @@ SPEC CHECKSUMS:
   React-jsi: df07aa95b39c5be3e41199921509bfa929ed2b9d
   React-jsiexecutor: b56c03e61c0dd5f5801255f2160a815f4a53d451
   React-jsinspector: 8e68ffbfe23880d3ee9bafa8be2777f60b25cbe2
-  react-native-cometchat-rtc: e1aac9a0dbed313662ed8eea1c16e942aea1a623
+  react-native-cometchat-rtc: 145f0516e9be44ed36a507fb4f94efb497c88b4c
   react-native-document-picker: 20f652c2402d3ddc81f396d8167c3bd978add4a2
   react-native-get-random-values: 2c4ff6b44cb71291dabe9a8ae87d3877dcf387da
   react-native-image-picker: 869530859570f2af86ae57bc48886a5e2367a825
@@ -497,7 +501,7 @@ SPEC CHECKSUMS:
   RNSound: 27e8268bdb0a1f191f219a33267f7e0445e8d62f
   RNVectorIcons: bc69e6a278b14842063605de32bec61f0b251a59
   SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
-  SDWebImageWebPCoder: f93010f3f6c031e2f8fb3081ca4ee6966c539815
+  SDWebImageWebPCoder: 908b83b6adda48effe7667cd2b7f78c897e5111d
   Yoga: 7d13633d129fd179e01b8953d38d47be90db185a
 
 PODFILE CHECKSUM: 576fa6e216a3d6c1e37c6ebd222401e6943bbf70
